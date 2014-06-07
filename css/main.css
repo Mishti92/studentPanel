@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{ 
+    display:block;
+}
+
+.textarea{
+    height:150px;
+    width: 500px;
+    padding: 2px; 
+    border: 1px solid #cccccc; 
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.titles{
+    color: #333333;
+    font-family: Impact;
+    font-size:18px;
+    font-weight: normal;
+}
+.clear{
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+}
+.lft{
+    float: left;
+}
+.rgt{
+    float: right;
+}
+#recent-forum-posts{
+    width: 404px;
+    margin-top: 10px;
+}
+#popular-pages li{    
+    margin: 5px 0;
+    clear: both;
+}
+#popular-pages li .mainProfilePic{
+    width: 36px;
+    float: left;
+}
+#popular-pages li .link{
+    color: #006699;
+    display: block;
+    margin-left: 42px;    
+}
+#popular-pages li span{
+    display: block;
+    margin-left: 42px;
+}
+
+#recent-forum-posts li{
+    margin: 5px 0;
+}
+#recent-forum-posts li .profileIcon{
+    float: left;
+    width: 30px;
+    margin-right: 10px;
+}
+#recent-forum-posts li .date{
+    color: #a59999;
+}
